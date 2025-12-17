@@ -15,7 +15,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date('Oct 22, 2023 00:00:00').getTime(),
+let countDown = new Date('Dec 17, 2025 00:00:00').getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -71,7 +71,7 @@ const _slideDua = function () {
         _slideTiga();
       }, 1000);
     })
-  }, 40000);
+  }, 10000);
 };
 
 const _slideTiga = function () {
@@ -90,7 +90,7 @@ const _slideTiga = function () {
         _slideEmpat();
       }, 1000);
     })
-  }, 43000);
+  }, 10000);
 }
 
 function getRandomPosition(element) {
@@ -154,14 +154,14 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Hari ini, saya langitkan semua doa terbaik saya untuk kamu.", "Semoga hal-hal yang membuat kamu runtuh turut menjadi alasan kamu untuk tetap tumbuh.", "Semoga dunia senantiasa menjaga kamu dimanapun kamu berada.", "Semoga hari-hari kamu selalu diiringi cinta yang tak pernah ada batasnya." , "Semoga setiap langkahmu dimudahkan hingga tercapai apa yang kamu inginkan."],
+  strings: ["hari ini sama indahnya seperti hari lainya, satu tahun terlewati dalam sekejap mata.", "namun hari ini terasa istimewa di tanggal yang sama kamu dianugrahkan untuk lahir di dunia."," ","aku doakan yang terbaik untukmu semoga hidupmu dalam ketenangan, semua harapan dan keinginanmu terwujud, Aamiin🤲." ," ", "aku harap kamu dapat menemukan kebahagiaan dalam setiap langkah perjalananmu"],
   startDelay: 4000,
   speed: 75,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Dengan ataupun tanpaku, semoga semesta selalu membahagiakan kamu bagimanapun caranya.", " ", "barakallah fi umrik, terima kasih sudah bertahan sampai sejauh ini.", " ", "- Wish all you the best"],
+  strings: ["Dengan ataupun tanpaku, semoga semesta selalu membahagiakan kamu bagimanapun caranya."," ", "yeyy... selamat ulang tahun Eka Natalia🥳🎉🎂", " ", "- Wish all you the best"," ","@fuadi"],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
